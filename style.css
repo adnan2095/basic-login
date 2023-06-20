@@ -1,0 +1,50 @@
+body{
+
+margin: 0;
+padding: 0;
+font-family: 'Inter', sans-serif;
+font-size: 14px;
+background:#0f0f0f;
+
+}
+
+.center{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: #2b2a2a;
+width: 100%;
+max-width: 450px;
+height: 300px;
+border-radius: 25px;
+/* background-image: url(imgs/bg1.png); */
+}
+
+.center h1{
+    text-align: center;
+
+}
+
+.center input{
+    margin: auto;
+    width: 350px;
+    border: none;
+    border-bottom: 10px;
+    background: linear-gradient(120deg, rgba(255,255,255,0.05), rgba(255,255,255,0.01));
+    border-radius: 10px;
+    padding: 17px 20px;
+    font-size: 14px;
+    display: block;
+    color: #fff;
+}
+
+.email_field{
+
+    margin: 20px 0;
+
+}
+
+.password_field{
+    margin: 20px 0;
+}
