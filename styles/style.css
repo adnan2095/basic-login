@@ -39,14 +39,6 @@ body {
   color: #fff;
 }
 
-.email_field {
-  margin: 20px 0;
-}
-
-.password_field {
-  margin: 20px 0;
-}
-
 @media screen and (max-width: 480px) {
   .center {
     width: 100%;
